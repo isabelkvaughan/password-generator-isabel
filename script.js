@@ -3,14 +3,7 @@ var generateBtn = document.querySelector("#generate");
 
 // Write password to the #password input
 function writePassword() {
-  var password = generatePassword();
   var passwordText = document.querySelector("#password");
-
-  passwordText.value = password;
-
-}
-
-function generatePassword () {
   var passwordLength = prompt("How many characters should your password contain? (8-128)");
   if (passwordLength === null) {
     return;
@@ -44,6 +37,12 @@ function generatePassword () {
   if (specialCharacters) {
     characters += "{}[]\|;',./:<>?!@#$%^&*()_+-=~";
   }
+
+  var password = "";
+  for (var i = 0; i < passwordLength; i++) {
+    password += characters.charAt(Math.floor(Math.random() * characters.length));
+}
+passwordText.value = password;
 }
 
 // Add event listener to generate button
