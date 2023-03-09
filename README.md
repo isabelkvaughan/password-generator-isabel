@@ -18,9 +18,9 @@ Application based off Starter Code provided by Monash Coding Bootcamps.
 
 ## Installation & Links
 
-Deployed Application: [isabelkvaughan.github.io/week-3-challenge-isabel](https://isabelkvaughan.github.io/week-3-challenge-isabel/)
+Deployed Application: [isabelkvaughan.github.io/password-generator-isabel/](https://isabelkvaughan.github.io/password-generator-isabel/)
 
-GitHub Repository: [github.com/isabelkvaughan/week-3-challenge-isabel/](https://github.com/isabelkvaughan/week-3-challenge-isabel/)
+GitHub Repository: [github.com/isabelkvaughan/password-generator-isabel/](https://github.com/isabelkvaughan/password-generator-isabel/)
 
 GitHub profile: [github.com/isabelkvaughan](https://github.com/isabelkvaughan)
 
